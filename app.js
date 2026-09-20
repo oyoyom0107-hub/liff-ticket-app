@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", async () => {
-  await liff.init({ liffId: "YOUR_LIFF_ID" });
+  await liff.init({ liffId: "2011312761-qIfAiMMa" });
+
 
   if (!liff.isLoggedIn()) {
     liff.login();
